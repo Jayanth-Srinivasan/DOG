@@ -5,15 +5,16 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-interface Event {
-  title: string;
-  banner?: string;
-  type: string;
-  date: string;
-  description: string;
-}
+const event = {
+  id: "1",
+  title: "DAO Expansion Webinar",
+  type: "online",
+  date: "2024-09-30",
+  description: "Join us to discuss the DAO expansion.",
+  banner: "https://noun.pics/90.svg",
+};
 
-const EventDetails = ({ event }: { event: Event }) => {
+const EventDetails = () => {
   const router = useRouter();
 
   return (
