@@ -15,18 +15,18 @@ interface Card {
 }
 
 const cards: Card[] = [
-  // {
-  //   id: 1,
-  //   title: "Card 1",
-  //   description: "This is the first card",
-  //   image: "https://nouns.center/earth.gif", // Add image URL
-  // },
-  // {
-  //   id: 2,
-  //   title: "Card 2",
-  //   description: "This is the second card",
-  //   image: "https://nouns.center/earth.gif", // Add image URL
-  // },
+  {
+    id: 1,
+    title: "Card 1",
+    description: "This is the first card",
+    image: "https://nouns.center/earth.gif", // Add image URL
+  },
+  {
+    id: 2,
+    title: "Card 2",
+    description: "This is the second card",
+    image: "https://nouns.center/earth.gif", // Add image URL
+  },
   // Add more cards to the array as needed
 ];
 

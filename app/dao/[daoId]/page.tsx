@@ -27,7 +27,7 @@ const ContributorDashboard = () => {
           {/* Active Tasks */}
           <div
             className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all"
-            onClick={() => redirectToPage("/dao/tasks")}
+            onClick={() => redirectToPage("/dao/1/tasks")}
           >
             <div className="card-icon mb-4 flex justify-center">
               <svg
@@ -57,7 +57,7 @@ const ContributorDashboard = () => {
           {/* Active Polls */}
           <div
             className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all"
-            onClick={() => redirectToPage("/dao/polls")}
+            onClick={() => redirectToPage("/dao/1/polls")}
           >
             <div className="card-icon mb-4 flex justify-center">
               <svg
@@ -87,7 +87,7 @@ const ContributorDashboard = () => {
           {/* Upcoming Events */}
           <div
             className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all"
-            onClick={() => redirectToPage("/dao/events")}
+            onClick={() => redirectToPage("/dao/1/events")}
           >
             <div className="card-icon mb-4 flex justify-center">
               <svg
@@ -117,7 +117,7 @@ const ContributorDashboard = () => {
           {/* Marketplace */}
           <div
             className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all"
-            onClick={() => redirectToPage("/dao/marketplace")}
+            onClick={() => redirectToPage("/dao/1/marketplace")}
           >
             <div className="card-icon mb-4 flex justify-center">
               <svg
@@ -147,7 +147,7 @@ const ContributorDashboard = () => {
           {/* Community Chat */}
           <div
             className="bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all"
-            onClick={() => redirectToPage("/dao/community")}
+            onClick={() => redirectToPage("/dao/1/community")}
           >
             <div className="card-icon mb-4 flex justify-center">
               <svg
